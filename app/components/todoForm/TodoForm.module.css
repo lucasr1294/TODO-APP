@@ -1,0 +1,73 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.err {
+      display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.err > input {
+    background-color: white;
+    padding: 8px;
+    color: black;
+    border: 2px solid red !important;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.title > input {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: white;
+    padding: 8px;
+    color: black;
+    border: 1px solid;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.title > select {
+    background-color: white;
+    padding: 8px;
+    color: black;
+    border: 1px solid;
+    border-radius: 7px;
+}
+
+.title > textarea {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: white;
+    padding: 8px;
+    color: black;
+    border: 1px solid;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.states {
+    display: flex;
+    gap: 20px;
+}
+
+.submitBtn {
+    padding: 10px 40px 10px 40px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
